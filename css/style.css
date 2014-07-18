@@ -7,6 +7,9 @@
 .erro {
     border-radius:5px;
 }
+.esp {
+	padding:60px 0 60px 0;
+}
 .clear {
 	height:30px;
 	clear:both;
