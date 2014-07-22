@@ -79,6 +79,7 @@ require_once ('includes/config.php');
 								{
 									$titulo = $rotas["404"];
 									$conteudo = 'includes/404.php';
+                                    http_response_code(404);
 								}
       ?>
 <!-- titulo e url -->
