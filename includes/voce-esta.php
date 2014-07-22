@@ -1,6 +1,6 @@
 <ul class="breadcrumb">
     <li>
-        Voc&ecirc; est&aacute; em: <a href="index.php">Home</a>
+        Voc&ecirc; est&aacute; em: <a href="/">Home</a>
     </li>
     <li>
         <?php echo $titulo?>
