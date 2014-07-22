@@ -1,6 +1,7 @@
 <?php
 $url  = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 $getUrl = trim($url['path'], '/');
+//echo $getUrl;
 
 // --------
 date_default_timezone_set('America/Sao_Paulo');

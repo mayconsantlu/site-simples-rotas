@@ -26,7 +26,7 @@
         
     </h3> <address> <strong>Site House.</strong><br /> Rua Jos&eacute; Alceu Sabatke, 120, Bloco H AP 41<br /> Curitiba / PR<br /> <abbr title="Fone">Fones:</abbr> 41 9942-0273 / 41 3379-8696</address>
 
-    <form class="form-horizontal" method="post" action="?p=contato">
+    <form class="form-horizontal" method="post" action="">
     <fieldset>
 
         <!-- nome do form -->
