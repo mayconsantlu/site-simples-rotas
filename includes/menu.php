@@ -4,16 +4,16 @@
             <a href="/">Home</a>
         </li>
         <li>
-            <a href="?p=empresa">Empresa</a>
+            <a href="empresa">Empresa</a>
         </li>
         <li>
-            <a href="?p=produtos">Produtos</a>
+            <a href="produtos">Produtos</a>
         </li>
         <li>
-            <a href="?p=servicos">Serviços</a>
+            <a href="servicos">Serviços</a>
         </li>
         <li>
-            <a href="?p=contato">Contato</a>
+            <a href="contato">Contato</a>
         </li>
     </ul>
 </nav>

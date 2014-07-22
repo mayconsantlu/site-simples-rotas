@@ -1,3 +1,14 @@
+<?php
+$url  = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+$getUrl = trim($url['path'], '/');
+
+// --------
+date_default_timezone_set('America/Sao_Paulo');
+require_once ('includes/config.php');
+// --------
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,12 +44,10 @@
 <body>
 <!-- titulo e url -->
     <?php
-        date_default_timezone_set('America/Sao_Paulo');
-		require_once ('includes/config.php');
-		// pega os dados pelo get e verifica se não está em branco
-        if (isset($_GET['p']) != "") 
+	// pega os dados pelo get e verifica se não está em branco
+        if (isset($getUrl) != "")
         	{ 
-        		$pag = $_GET['p'];
+        		$pag = $getUrl;
         	} else 
         		{ 
         			$pag = "";
