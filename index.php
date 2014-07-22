@@ -34,7 +34,7 @@
 <!-- titulo e url -->
     <?php
         date_default_timezone_set('America/Sao_Paulo');
-		require_once ('config.php');
+		require_once ('includes/config.php');
 		// pega os dados pelo get e verifica se não está em branco
         if (isset($_GET['p']) != "") 
         	{ 
@@ -47,28 +47,28 @@
 		if (($pag == 'home') or ($pag == ""))
 			{
 				$titulo = $paginas["home"];
-				$conteudo = 'home.php';
+				$conteudo = 'includes/home.php';
 			}elseif ($pag == 'empresa')
 				{
 					$titulo = $paginas["empresa"];
-					$conteudo = 'empresa.php';			
+					$conteudo = 'includes/empresa.php';
 				}elseif ($pag == 'produtos')
 					{
 						$titulo = $paginas["produtos"];
-						$conteudo = 'produtos.php';			
+						$conteudo = 'includes/produtos.php';
 					}elseif ($pag == 'servicos')
 						{
 							$titulo = $paginas["servicos"];
-							$conteudo = 'servicos.php';			
+							$conteudo = 'includes/servicos.php';
 						}elseif ($pag == 'contato')
 							{
 								$titulo = $paginas["contato"];
-								$conteudo = 'contato.php';			
+								$conteudo = 'includes/contato.php';
 							}
 							else 
 								{
 									$titulo = $paginas["404"];
-									$conteudo = '404.php';			
+									$conteudo = 'includes/404.php';
 								}
       ?>
 <!-- titulo e url -->
@@ -88,13 +88,13 @@
     	<div class="row clearfix">
         <!-- menu -->
             <div class="col-md-3 column">
-                <?php require_once('menu.php'); ?>
+                <?php require_once('includes/menu.php'); ?>
             </div>
         <!-- menu -->
         <!-- corpo -->
 		<div class="col-md-9 column">
         <!-- breadcump -->
-            <?php require_once('voce-esta.php'); ?>
+            <?php require_once('includes/voce-esta.php'); ?>
         <!-- breadcump -->
             <div class="conteudo"> 
                 <?php
