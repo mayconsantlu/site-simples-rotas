@@ -3,7 +3,7 @@
 * Arquivo de Configuração dos titulos
 */
 
-$paginas = array(
+$rotas = array(
 	"home" => "Seja bem vindo ao nosso site!",
 	"empresa" => "Empresa",
 	"produtos" => "Produtos",

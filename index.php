@@ -56,28 +56,28 @@ require_once ('includes/config.php');
 		// ajusta os titulos e páginas e verifica se existe
 		if (($pag == 'home') or ($pag == ""))
 			{
-				$titulo = $paginas["home"];
+				$titulo = $rotas["home"];
 				$conteudo = 'includes/home.php';
 			}elseif ($pag == 'empresa')
 				{
-					$titulo = $paginas["empresa"];
+					$titulo = $rotas["empresa"];
 					$conteudo = 'includes/empresa.php';
 				}elseif ($pag == 'produtos')
 					{
-						$titulo = $paginas["produtos"];
+						$titulo = $rotas["produtos"];
 						$conteudo = 'includes/produtos.php';
 					}elseif ($pag == 'servicos')
 						{
-							$titulo = $paginas["servicos"];
+							$titulo = $rotas["servicos"];
 							$conteudo = 'includes/servicos.php';
 						}elseif ($pag == 'contato')
 							{
-								$titulo = $paginas["contato"];
+								$titulo = $rotas["contato"];
 								$conteudo = 'includes/contato.php';
 							}
 							else 
 								{
-									$titulo = $paginas["404"];
+									$titulo = $rotas["404"];
 									$conteudo = 'includes/404.php';
 								}
       ?>
